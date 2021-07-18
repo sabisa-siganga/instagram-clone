@@ -1,4 +1,4 @@
-import "..styles/suggestions.scss";
+import "../styles/suggestions.scss";
 
 
 function Suggestions() {
