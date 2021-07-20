@@ -7,9 +7,21 @@ import image from '../images/profile.jpg'
 
 
 function Sidebar() {
-
     return (
-        <div className="Sidebar">
+        <div className="sidebar">
+         <Sticky topOffset={-80}>
+             <div className="sidebar">
+                 <Profile 
+                 username="sabie.siganga" 
+                 caption="Sabisa Siganga" 
+                 urlText="Switch" 
+                 iconSize="big" 
+                 image={image}
+                />
+                <Suggestions />
+                <Footer />
+             </div>
+         </Sticky>   
         </div>
     );
 }
